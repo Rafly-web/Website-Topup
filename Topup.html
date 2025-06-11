@@ -261,7 +261,7 @@
 
       const fullID = selectedGame.id === 'ml' ? `${userID} (${zoneID})` : userID;
 
-      const message = `Halo Admin, saya ingin top up:\n\nGame: ${selectedGame.name}\nUser ID: ${fullID}\nPaket: ${selectedOption.label}\nHarga: Rp${selectedOption.price.toLocaleString()}\nPembayaran via: ${paymentMethod}`;
+      const message = `Halo Admin Rafly, saya ingin top up:\n\nGame: ${selectedGame.name}\nUser ID: ${fullID}\nPaket: ${selectedOption.label}\nHarga: Rp${selectedOption.price.toLocaleString()}\nPembayaran via: ${paymentMethod}`;
       const waURL = `https://wa.me/6285881291680?text=${encodeURIComponent(message)}`;
       window.open(waURL, '_blank');
 
